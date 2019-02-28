@@ -1,0 +1,40 @@
+Array list  vs   Vectors
+ Vectors						Array list
+1-vectors makes there size double(100%) 		1-array lists make their sizes 50% 
+2-vectors are synchronised			           	2-array lists are asynchronised		
+
+HashSet vs SortedSet
+ HashSet					                                	SortedSet
+1-set interface					                            1-set interface
+2-elements are not in sorted order			            2-elements stored in sorted order
+3-duplication is allowed				                    3-duplication is allowed
+4-speed of insertion , deletion is very fast        4- speed of insertion , deletion is slow 
+5-null objects are allowed                          5-null objects are not allowed
+
+TreeSet vs HashSet
+ HashSet						                                TreeSet
+1-set interface					                            1-set interface
+2-elements are not in sorted order			            2-elements stored in sorted order
+3-duplication is not allowed				                3-duplication is not  allowed
+4-speed of insertion , deletion is very fast        4- speed of insertion , deletion is slow 
+5-null objects are allowed                          5-null objects are not allowed
+
+Array vs List
+Array                                                 Lists
+1-fixed size array					                        1-dynamic sized array
+2-homogeneous elements				                      2-hetrogenous elements (different types)
+3-basic functionality                               3- part of collection framework		
+
+List vs Set
+List                                                  Set
+1-ordered collection					                      1-unordered collection of elements
+2-maintains insertion order			                  	2-does not maintains insertion order
+3-duplication is allowed				                    3-duplication is not allowed
+4-positional access is allowed			                4-positional access is not allowed
+
+NavigableSet vs NavigableMap
+NavigableSet				                                 NavigableMap
+1-sorted set interface				                      1-map’s interface 
+2-behave like sortedset with navigable methods      2-there is a key value pair
+3-like sets duplication is not allowed              3-key is of string type and value is of integer 
+4-we can get the revers order due to navigation     4- duplication of key is not allowed value may be
